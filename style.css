@@ -1,0 +1,9 @@
+:root { --paper: #e8dfcc; --ink: #22211e; --muted: #5b554a; }
+@media (prefers-color-scheme: dark) { :root { --paper: #1e1c19; --ink: #ede5d3; --muted: #b3aa98; } }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+h1 { font: 700 40px/1.1 "Oswald", Impact, sans-serif; text-transform: uppercase; letter-spacing: 0.02em; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 32px 0 8px; }
+.meta { font: 12px "PT Mono", ui-monospace, monospace; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--ink); padding-bottom: 12px; }
+a { color: var(--ink); }
+hr { border: 0; border-top: 1px solid var(--ink); margin: 48px 0; }
